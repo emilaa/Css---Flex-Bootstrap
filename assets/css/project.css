@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar-area{
+    background-color: black;
+}
+
+#navbar-area .row{
+    position: relative;
+}
+
+#navbar-area .container .name{
+    position: absolute;
+    top: 12px;
+    left: 45px;
+}
+
+#navbar-area .container .name a{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar-area ul li a{
+    color: white;
+}
+
+#navbar-area ul li a:hover{
+    background-color: grey;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+#introduction .intro{
+    width: 915px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 25px;
+    background-color: #EEEEEE;
+    position: relative;
+    border-radius: 5px;
+}
+
+#introduction .intro .position{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
+
+#introduction .side-bar{
+    width: 250px;
+    height: 380px;
+    margin-top: 20px;
+    margin-left: -10px;
+    background-color: #EEEEEE;
+    position: relative;
+    border-radius: 5px;
+}
+
+#introduction .side-bar .position{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+#introduction .side-bar .position li{
+    list-style: none;
+    padding: 1px;
+}
+
+#introduction .side-bar .position a{
+    text-decoration: none;
+}
+
+#head .cards a{
+    color: black;
+}
+
+#head{
+    position: relative;
+}
+
+/* #head .all{
+    position: relative;
+} */
+
+#head .container .cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    margin-top: -100px;
+}
+
+#head .container .cards .card-border{
+    border: none;
+}
+
+#footer .container .text-line .line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(216, 203, 203);
+    margin-bottom: 100px;
+}
+
+#footer .container .text-line p{
+    margin-top: -88px;
+}
